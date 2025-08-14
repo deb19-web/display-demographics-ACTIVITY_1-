@@ -1,0 +1,31 @@
+using System;
+
+class Activity1
+{
+    public static void Main(string[] args)
+    
+    {
+    string StudentID = "24955247";
+    string Fname = "John Dave Alfar";
+    string Nname = "Deb";
+    string Gender = "Male";
+    string YearLevel = "3";
+    string HomeLoc = "Kinasang-an, Pardo";
+    string Course = "BSIT";
+    string MobileNum = "09766013035";
+    string PersonalEmail = "alfar.dave.john@gmail.com";
+    
+    Console.WriteLine ("Demographics Program by John Dave Alfar\n");
+
+    Console.WriteLine ("Student ID     : " + StudentID);
+    Console.WriteLine ("Full Name      : " + Fname);
+    Console.WriteLine ("Nick Name      : " + Nname);
+    Console.WriteLine ("Gender         : " + Gender);
+    Console.WriteLine ("Year Level     : " + YearLevel);
+    Console.WriteLine ("Home Location  : " + HomeLoc);
+    Console.WriteLine ("Course         : " + Course);
+    Console.WriteLine ("Mobile Number  : " + MobileNum);
+    Console.WriteLine ("Personal Email : " + PersonalEmail);
+    
+    }
+}
